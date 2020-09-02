@@ -1,0 +1,52 @@
+# Bảo vệ file .htaccess
+<Files .htaccess>
+Order Allow,Deny
+Deny from all
+</Files>
+# Phần http - https
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R,L] 
+
+
+
+ErrorDocument 404 /404.php
+# Rewrite url
+RewriteEngine on
+
+
+#url admin
+
+RewriteRule ^admin/quan-tri-vien.html /admin/admin.php
+RewriteRule ^admin/cong-tac-vien.html /admin/congtacvien.php
+RewriteRule ^admin/thanh-vien.html /admin/user.php
+RewriteRule ^admin/thong-tin.html /admin/setting.php
+RewriteRule ^admin/cong-tien.html /admin/congtien.php
+RewriteRule ^admin/lich-su.html /admin/lichsu.php
+RewriteRule ^admin/bien-doi.html /admin/biendoi.php
+RewriteRule ^admin/dang-nhap.html /admin/login.php
+RewriteRule ^admin/doi-mat-khau.html /admin/doipass.php
+RewriteRule ^admin/phan-quyen-thanh-vien.html /admin/phanquyen.php
+RewriteRule ^admin/rut-tien.html /admin/ruttien.php
+RewriteRule ^admin/chuyen-tien.html /admin/chuyentien.php
+RewriteRule ^admin/nap-the.html /admin/napcham.php
+RewriteRule ^admin/quan-ly-the.html /admin/khothe.php
+RewriteRule ^admin/list-nha-mang.html /admin/nhamang.php
+RewriteRule ^admin/them-the.html /admin/themthe.php
+
+#user
+RewriteRule ^thong-tin-tai-khoan.html user/index.php
+RewriteRule ^bien-doi-so-du.html user/biendoi.php
+RewriteRule ^history/buycard.html user/lichsu-muathe.php
+RewriteRule ^history/reloadcard.html user/lichsu-gachthe.php
+RewriteRule ^chuyen-tien.html user/chuyentien.php
+RewriteRule ^rut-tien.html user/ruttien.php
+RewriteRule ^doi-mat-khau.html user/doimatkhau.php
+RewriteRule ^mua-the.html muathe.php
+RewriteRule ^login dangnhap.php
+RewriteRule ^dangky dangky.php
+RewriteRule ^forgot-password.html forgot-password.php
+RewriteRule ^dangxuat dangxuat.php

@@ -1,0 +1,1 @@
+<script>alert('Bạn đã bị chặn IP')</script>

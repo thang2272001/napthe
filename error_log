@@ -1,0 +1,27 @@
+[12-Aug-2020 18:51:36 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: type in /home/autotool/public_html/muathe.php on line 36
+[12-Aug-2020 18:51:36 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: amount in /home/autotool/public_html/muathe.php on line 37
+[12-Aug-2020 18:51:45 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: type in /home/autotool/public_html/muathe.php on line 36
+[12-Aug-2020 18:51:45 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: amount in /home/autotool/public_html/muathe.php on line 37
+[12-Aug-2020 18:51:53 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: type in /home/autotool/public_html/muathe.php on line 36
+[12-Aug-2020 18:51:53 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: amount in /home/autotool/public_html/muathe.php on line 37
+[12-Aug-2020 19:08:27 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: type in /home/autotool/public_html/muathe.php on line 36
+[12-Aug-2020 19:08:27 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: amount in /home/autotool/public_html/muathe.php on line 37
+[12-Aug-2020 19:12:26 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: type in /home/autotool/public_html/muathe.php on line 36
+[12-Aug-2020 19:12:26 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: amount in /home/autotool/public_html/muathe.php on line 37
+[12-Aug-2020 19:12:40 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: type in /home/autotool/public_html/muathe.php on line 36
+[12-Aug-2020 19:12:40 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: amount in /home/autotool/public_html/muathe.php on line 37
+[12-Aug-2020 19:19:08 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: type in /home/autotool/public_html/muathe.php on line 36
+[12-Aug-2020 19:19:08 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: amount in /home/autotool/public_html/muathe.php on line 37
+[12-Aug-2020 19:20:11 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: type in /home/autotool/public_html/muathe.php on line 36
+[12-Aug-2020 19:20:11 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: amount in /home/autotool/public_html/muathe.php on line 37
+[12-Aug-2020 19:20:43 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: type in /home/autotool/public_html/muathe.php on line 36
+[12-Aug-2020 19:20:43 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: amount in /home/autotool/public_html/muathe.php on line 37
+[12-Aug-2020 19:20:58 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: type in /home/autotool/public_html/muathe.php on line 36
+[12-Aug-2020 19:20:58 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: amount in /home/autotool/public_html/muathe.php on line 37
+[12-Aug-2020 19:21:03 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: type in /home/autotool/public_html/muathe.php on line 36
+[12-Aug-2020 19:21:03 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: amount in /home/autotool/public_html/muathe.php on line 37
+[12-Aug-2020 19:21:59 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: type in /home/autotool/public_html/muathe.php on line 36
+[12-Aug-2020 19:21:59 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: amount in /home/autotool/public_html/muathe.php on line 37
+[12-Aug-2020 19:23:05 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: type in /home/autotool/public_html/muathe.php on line 36
+[12-Aug-2020 19:23:05 Asia/Ho_Chi_Minh] PHP Notice:  Undefined index: amount in /home/autotool/public_html/muathe.php on line 37
+[12-Aug-2020 13:05:36 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting end of file in /home/autotool/public_html/index.php on line 258
